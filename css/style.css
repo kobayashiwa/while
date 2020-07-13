@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+body {
+	margin: 0;
+	font-family: 'Fira Sans', sans-serif;
+	color: #2C3543;
+}
+a {
+	text-decoration: none;
+	color: #2C3543;
+}
+a:hover {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/**
+h3 {
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 16px;
+}
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+.Carousel {
+	margin: 80px 0;
+}
+.CarouselImage ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+}
+.CarouselImage ul li {
+	width: 20%;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.CarouselImage ul li img {
+	width: 100%;
+}
+.cover {
+	position: relative;
+}
+.book-title {
+	width: 90%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 300;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@media (max-width: 1000px) {
+	.CarouselImage ul li {
+		width: 33.33%;
+	}
+}
+@media (max-width: 670px) {
+	.CarouselImage ul li {
+		width: 50%;
+	}
+}
+
