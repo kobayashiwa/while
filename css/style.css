@@ -60,9 +60,15 @@ ul, li {
 	width: 100%;
 }
 .Heading {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 8px;
+}
+.caption {
+	font-size: 14px;
+	color: #8D9197;
+	line-height: 1.6;
+	font-weight: 300;
 }
 /**
 
@@ -70,9 +76,7 @@ ul, li {
 
 
 
-.cover {
-	position: relative;
-}
+
 .book-title {
 	width: 90%;
 	text-align: center;
