@@ -70,9 +70,6 @@ ul, li {
 	line-height: 1.6;
 	font-weight: 300;
 }
-form {
-	padding: 0 20px 0 0;
-}
 select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -99,6 +96,18 @@ select {
 		text-align: center;
 	}
 }
+@media (max-width: 670px) {
+	.PreFooter .container ul {
+		flex-direction: column;
+	}
+	.PreFooter .container ul li {
+		width: 100%;
+		margin-bottom: 48px;
+	}
+	.PreFooter .container ul li+li {
+		border: none;
+	}
+}
 /**
 
 
@@ -107,11 +116,6 @@ select {
 
 
 
-@media (max-width: 1000px) {
-	.CarouselImage ul li {
-		width: 33.33%;
-	}
-}
 @media (max-width: 670px) {
 	.CarouselImage ul li {
 		width: 50%;
