@@ -11,10 +11,10 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #2C3543;
+	color: #297CBB;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 ul, li {
 	list-style: none;
@@ -108,17 +108,3 @@ select {
 		border: none;
 	}
 }
-/**
-
-
-
-
-
-
-
-@media (max-width: 670px) {
-	.CarouselImage ul li {
-		width: 50%;
-	}
-}
-
