@@ -21,13 +21,25 @@ ul, li {
 	margin: 0;
 	padding: 0;
 }
+.container {
+	width: 100%;
+	max-width: 1290px;
+	margin: 0 auto;
+	padding: 24px;
+}
+.PreFooter {
+	margin: 64px 0;
+}
+.PreFooter .container ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.PreFooter .container ul li {
+	width: 33.33%;
+}
 
 /**
-h3 {
-	font-size: 32px;
-	font-weight: 300;
-	margin-bottom: 16px;
-}
+
 .container {
 	width: 100%;
 	max-width: 1290px;
