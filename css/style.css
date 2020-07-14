@@ -70,6 +70,21 @@ ul, li {
 	line-height: 1.6;
 	font-weight: 300;
 }
+form {
+	padding: 0 20px 0 0;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	font-size: 18px;
+	padding: 8px 12px;
+	border: 1px solid #E2E7EA;
+	border-radius: 4px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+}
 /**
 
 
