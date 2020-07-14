@@ -37,15 +37,20 @@ ul, li {
 .PreFooter .container ul li {
 	width: 33.33%;
 }
+.PreFooterCell {
+	display: flex;
+	flex-wrap: wrap;
+}
+.Cell-left {
+	width: 30%;
+}
+.Cell-right {
+	width: 70%;
+}
 
 /**
 
-.container {
-	width: 100%;
-	max-width: 1290px;
-	margin: 0 auto;
-	padding: 0 24px;
-}
+
 .Carousel {
 	margin: 80px 0;
 }
