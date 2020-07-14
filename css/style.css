@@ -47,13 +47,16 @@ ul, li {
 .Cell-right {
 	width: 70%;
 }
-
+.icon {
+	width: 72px;
+}
+.icon img {
+	width: 100%;
+}
 /**
 
 
-.Carousel {
-	margin: 80px 0;
-}
+
 .CarouselImage ul {
 	display: flex;
 	flex-wrap: wrap;
