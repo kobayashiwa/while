@@ -85,6 +85,20 @@ select {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 200;
 }
+@media (max-width: 1000px) {
+	.PreFooterCell {
+		flex-direction: column;
+	}
+	.Cell-left, .Cell-right {
+		width: 100%;
+	}
+	.icon {
+		margin: 0 auto;
+	}
+	.Heading {
+		text-align: center;
+	}
+}
 /**
 
 
@@ -92,17 +106,7 @@ select {
 
 
 
-.book-title {
-	width: 90%;
-	text-align: center;
-	font-size: 14px;
-	color: #fff;
-	font-weight: 300;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+
 @media (max-width: 1000px) {
 	.CarouselImage ul li {
 		width: 33.33%;
